@@ -157,9 +157,13 @@ class Common(Configuration):
                 # Beware before activating this! Grappelli has problems with admin
                 # inlines and the template backend option 'string_if_invalid'.
                 'string_if_invalid': values.Value('', environ_name='TEMPLATE_STRING_IF_INVALID'),
+                'debug': values.BooleanValue(False, environ_name='TEMPLATE_DEBUG'),
             },
         },
     ]
+
+    # the following line is only necessary because django-template-debug uses it
+    TEMPLATE_DEBUG = TEMPLATES[0]['OPTIONS'].get('debug', False)
 
     FIXTURE_DIRS = (
         os.path.join(BaseDir.BASE_DIR, 'fixtures'),
