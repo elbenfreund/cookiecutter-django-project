@@ -176,6 +176,7 @@ class Common(Configuration):
         'django.contrib.admin',
         'django.contrib.admindocs',
         'crispy_forms',
+        'template_debug',
     )
 
     CRISPY_TEMPLATE_PACK = 'bootstrap3'
