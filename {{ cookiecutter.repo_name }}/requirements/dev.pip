@@ -17,7 +17,7 @@ isort==4.3.21
 # See https://bitbucket.org/antocuni/pdb/issue/45/fails-to-install-on-os-x-1010-python-343
 pdbpp==0.10.2  # rq.filter: !=0.8.2
 pg-activity==1.5.0
-sqlparse==0.3.0
+sqlparse==0.3.1
 
 # Fork of django-devserver with support for Django 1.8 and Python 3
 https://github.com/transcode-de/django-devserver/archive/8ec8efbb7b738508f489d3ddca54c40f510928b6.zip
