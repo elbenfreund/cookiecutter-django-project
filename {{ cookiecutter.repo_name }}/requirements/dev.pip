@@ -11,7 +11,7 @@ bottle==0.12.18
 bumpversion==0.6.0
 django-debug-toolbar==2.2
 flake8==3.8.3
-ipython==7.16.1
+ipython==7.17.0
 isort==5.2.2
 # Newer versions of pdbpp do not work with Python 3
 # See https://bitbucket.org/antocuni/pdb/issue/45/fails-to-install-on-os-x-1010-python-343
