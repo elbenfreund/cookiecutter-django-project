@@ -9,7 +9,7 @@ Glances==3.1.5
 # Bottle is required to run Glances in webserver mode
 bottle==0.12.19
 bumpversion==0.6.0
-django-debug-toolbar==3.1.1
+django-debug-toolbar==3.2
 flake8==3.8.4
 ipython==7.19.0
 isort==5.6.4
